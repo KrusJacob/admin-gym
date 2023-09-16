@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/admin-gym/static/css/main.bee84489.css",
+    "main.js": "/admin-gym/static/js/main.4e98bb37.js",
+    "static/media/bg__main.jpg": "/admin-gym/static/media/bg__main.13954a42558e5ee2b2d7.jpg",
+    "static/media/bg__gym.jpg": "/admin-gym/static/media/bg__gym.0d4276b2db9e73c00352.jpg",
+    "static/media/img__404.png": "/admin-gym/static/media/img__404.fab8ad695e2026cc86b8.png",
+    "index.html": "/admin-gym/index.html",
+    "main.bee84489.css.map": "/admin-gym/static/css/main.bee84489.css.map",
+    "main.4e98bb37.js.map": "/admin-gym/static/js/main.4e98bb37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bee84489.css",
+    "static/js/main.4e98bb37.js"
+  ]
+}
