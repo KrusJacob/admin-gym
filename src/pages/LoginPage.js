@@ -12,16 +12,10 @@ const LoginPage = () => {
     login: "",
     password: "",
   });
-  //   const login = useSelector((state) => state.login.login);
 
   const { loginON } = useActions();
   const navigate = useNavigate();
-  //   useEffect(() => {
-  //     console.log("renderLogin");
-  //     if (login === true) {
-  //       navigate("/main");
-  //     }
-  //   }, []);
+
   const submitHadler = (e) => {
     e.preventDefault();
     if (loginDetails.login === value.login && loginDetails.password === value.password) {
@@ -48,7 +42,7 @@ const LoginPage = () => {
             value={value.login}
             onChange={changeHandler}
             name="login"
-            placeholder="Введите логин"
+            placeholder="Введите логин (admin)"
             type="text"
             className="border-2 w-full mb-2 py-2 px-4 rounded"
           />
@@ -56,7 +50,7 @@ const LoginPage = () => {
             value={value.password}
             onChange={changeHandler}
             name="password"
-            placeholder="Введите пароль"
+            placeholder="Введите пароль (1234)"
             type="password"
             className="border-2 w-full mb-2 py-2 px-4 rounded"
           />

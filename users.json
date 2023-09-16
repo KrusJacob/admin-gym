@@ -22,7 +22,7 @@
       "id": 4,
       "name": "Bob",
       "surname": "Barlow",
-      "abonnementCount": 8
+      "abonnementCount": 6
     },
     {
       "id": 5,
@@ -34,7 +34,7 @@
       "id": 7,
       "name": "Chen",
       "surname": "Grant",
-      "abonnementCount": 11
+      "abonnementCount": 9
     },
     {
       "id": 8,
@@ -46,7 +46,7 @@
       "id": 9,
       "name": "Alisanna",
       "surname": "Gilbert",
-      "abonnementCount": 3
+      "abonnementCount": 2
     },
     {
       "id": 10,
@@ -64,7 +64,7 @@
       "id": 14,
       "name": "Bob",
       "surname": "Martin",
-      "abonnementCount": 4
+      "abonnementCount": 3
     },
     {
       "id": 15,
@@ -76,7 +76,7 @@
       "id": 16,
       "name": "Liza",
       "surname": "Oliver",
-      "abonnementCount": 2
+      "abonnementCount": 4
     },
     {
       "id": 17,
@@ -485,7 +485,7 @@
     {
       "id": 1,
       "name": "gym",
-      "value": 112
+      "value": 2
     }
   ]
 }

@@ -8,12 +8,8 @@ export const apiSlice = createApi({
   tagTypes: ["Users", "Statictics"],
   endpoints: (builder) => ({
     getUsers: builder.query({
-      query: (limit = 10, page = 1) => `/users`,
-      // query: (limit = 10, page = 1) => `/users?_limit=${limit}&_page=${page}`,
+      query: () => `/users`,
       providesTags: ["Users"],
-      // transformResponse(response, meta) {
-      //   return { response, totalCount: meta.response.headers.get("X-Total-Count") };
-      // },
     }),
     createUser: builder.mutation({
       query: (user) => ({

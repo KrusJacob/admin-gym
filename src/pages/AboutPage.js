@@ -6,7 +6,7 @@ import { LS_STATISTICS_KEY } from "../store/statistics/statistics";
 
 const AboutPage = () => {
   const statistics = useMemo(() => {
-    return JSON.parse(localStorage.getItem(LS_STATISTICS_KEY) ?? "0");
+    return JSON.parse(localStorage.getItem(LS_STATISTICS_KEY)) || 0;
   }, []);
 
   const [incStatistics] = useIncStatisticsMutation();
@@ -34,7 +34,9 @@ const AboutPage = () => {
           <p className="text-center text-[length:calc(var(--index)*1)] animate-show">
             Our gym was visited by
             {/* <span className="text-center block m-auto text-blue-800  text-5xl">{statistics[0].value}</span> */}
-            <span className="text-center block m-auto text-blue-400 font-medium text-6xl">{statistics.gym}</span>
+            <span className="text-center block m-auto text-blue-400 font-medium text-6xl">
+              {statistics.gym || 0}
+            </span>
             people
           </p>
         </div>

@@ -15,6 +15,7 @@ const UsersList = () => {
   const [page, setPage] = useState(1);
 
   const { data: users = [], isLoading } = useGetUsersQuery(limit, page);
+
   const search = useSelector(getSearch);
 
   let pagesArray = useMemo(() => {

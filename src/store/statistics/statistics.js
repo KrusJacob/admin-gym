@@ -2,13 +2,11 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const LS_STATISTICS_KEY = "React_My_App_Statictics";
 
-const initialState = JSON.parse(
-  localStorage.getItem(LS_STATISTICS_KEY) ?? {
-    gym: 0,
-    pool: 0,
-    massage: 0,
-  }
-);
+const initialState = JSON.parse(localStorage.getItem(LS_STATISTICS_KEY)) ?? {
+  gym: 0,
+  pool: 0,
+  massage: 0,
+};
 
 export const statisticsSlise = createSlice({
   name: "statistics",
