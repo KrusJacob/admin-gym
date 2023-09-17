@@ -39,7 +39,6 @@ const UsersList = () => {
 
   useEffect(() => {
     setTotalPages(getPageCount(totalCount, limit));
-    console.log("render");
   }, [totalCount, limit]);
 
   if (!filteredUsers.length && !isLoading) {
